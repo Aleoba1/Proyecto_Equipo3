@@ -69,7 +69,7 @@ body {
 img:hover {
   opacity: 0.5;
 }
-div {
+div.table {
   margin-top: 100px;
 }
 .circle {

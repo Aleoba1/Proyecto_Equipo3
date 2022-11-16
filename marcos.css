@@ -1,3 +1,68 @@
+/*Navigatorbar*/
+
+ul.drop {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 99, 180);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li.drop {
+  display: inline-block;
+}
+
+
+li.dropbtn {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(117, 200, 255);
+  color:rgb(0, 99, 180);
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(0, 99, 180);
+  min-width: 160px;
+  float: under;
+}
+
+.dropdown-content a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #007474;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  left: 0;
+}
+
+/*santi*/
+
 body {
 	background-color: #b5e1f5;
 }

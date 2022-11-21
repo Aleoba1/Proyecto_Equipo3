@@ -38,7 +38,7 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover .dropbtn, .dropdown:hover .dropbtn {
+li a:hover .dropbtn, .dropdown:hover .dropbtn, .dropdown:hover {
   background-color: rgb(0, 110, 255);
   color:rgb(255, 255, 255);
 }
@@ -111,7 +111,6 @@ li.dropdown {
   background-position: center;
   background-size: 100% 100%;
   padding: 15px;
-  color:rgb(0, 0, 0);
 }
 
 

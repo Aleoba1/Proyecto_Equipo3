@@ -38,7 +38,7 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover .dropbtn, .dropdown:hover .dropbtn {
+li a:hover .dropbtn, .dropdown:hover .dropbtn, .dropdown:hover {
   background-color: rgb(0, 110, 255);
   color:rgb(255, 255, 255);
 }
@@ -72,98 +72,16 @@ li.dropdown {
   left: 0;
 }
 
-/*galeria de imagenes*/
-
-.fondo1 {
-
-  border: 1px solid black;
-  background:  url(images/masculina.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  padding: 15px;
-}
-
-.fondo2 {
-
-  border: 1px solid black;
-  background:  url(images/formal.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  padding: 15px;
-}
-
-.fondo3 {
-
-  border: 1px solid black;
-  background:  url(images/juvenil.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  padding: 15px;
-}
-
-.fondo4 {
-  border: 1px solid black;
-  background:  url(images/elegante.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  padding: 15px;
-}
-
-
-/*letras galeria de imagenes*/
-
-.left {
-  color:rgb(255, 255, 255);
-  text-transform: uppercase;
-  font-size: 50px;
-  padding: 10px;
-  font-weight: bold;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-
-/*circulo flecha galeria de imagenes*/
-
-.circle {
-  border-radius: 70%;
-  width: 100px;
-  height: 100px;
-  border: 3px solid black;
-  margin-top: 250px;
-  margin-bottom: 250px;
-}
-
-img:hover {
-  opacity: 0.5;
-}
-
-/*fondo quienes somos*/
-.fondo5 {
-
-  border: 1px solid black;
-  background:  url(images/Estudiantes.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%, 300px;
-  padding: 15px;
-}
-.fondo6 {
-  background-color: rgb(1, 97, 181);
-}
-
-.fondo7 {
-  background-color: rgb(0, 0, 0);
-  color:white;
-}
-
 /*Tablas*/
 table, th, td {
   border-collapse: collapse;
   border: 0px solid rgb(1, 97, 181);
   padding: 8px;
+}
+
+.fondo7 {
+  background-color: rgb(0, 0, 0);
+  color:white;
 }
 
 /*informacion adicional*/

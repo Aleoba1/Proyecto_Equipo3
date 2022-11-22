@@ -38,7 +38,7 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover .dropbtn, .dropdown:hover .dropbtn {
+li a:hover .dropbtn, .dropdown:hover .dropbtn, .dropdown:hover {
   background-color: rgb(0, 110, 255);
   color:rgb(255, 255, 255);
 }
@@ -77,7 +77,13 @@ table, th, td {
   border-collapse: collapse;
   border: 0px solid rgb(1, 97, 181);
   padding: 8px;
+} 
+
+.fondo7 {
+  background-color: rgb(0, 0, 0);
+  color:white;
 }
+
 
 /*informacion adicional*/
  
@@ -89,6 +95,7 @@ table, th, td {
   font-weight: bold;
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
 
 /*santi*/
 

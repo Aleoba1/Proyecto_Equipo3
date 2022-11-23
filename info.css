@@ -74,7 +74,7 @@ li.dropdown {
 
 /*fondo quienes somos*/
 
-.fondo5 {
+.fondo51 {
 
   border: 1px solid black;
   background:  url(images/Estudiantes.webp);
@@ -83,6 +83,27 @@ li.dropdown {
   background-size: 100%, 300px;
   padding: 15px;
 }
+
+.fondo52 {
+
+  border: 1px solid black;
+  background:  url(images/TiendaRopa-Benetton.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%, 300px;
+  padding: 15px;
+}
+
+.fondo53 {
+
+  border: 1px solid black;
+  background:  url(images/hombres.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%, 300px;
+  padding: 15px;
+}
+
 .fondo6 {
   background-color: rgb(1, 97, 181);
 }
